@@ -3,6 +3,12 @@ languageCode = "en-us"
 title = "펭귄의 테스트 블로그"
 theme = "hugo-theme-stack"
 
+[permalinks]
+post = "/p/:slug/"
+
+[params]
+mainSections = ["post"]
+
 [params.defaultImage.opengraph]
 enabled = false
 
