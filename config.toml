@@ -1,7 +1,14 @@
 baseURL = "https://seungyeop-lee.github.io/test-blog/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "펭귄의 테스트 블로그"
 theme = "hugo-theme-stack"
 
 [params.defaultImage.opengraph]
 enabled = false
+
+[params.sidebar]
+subtitle = "서브 타이틀 입니다."
+
+[params.sidebar.avatar]
+local = true
+src = "img/avatar.png"
